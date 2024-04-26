@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="formu.css">
+    <link rel="icon" href="/logotipo-de-apple.png">
+    <link rel="icon" href="/logotipo-de-apple.png">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Registro de persona</h1>
+        </section>
+        <section class="form">
+            <h2>Datos Personales</h2>
+            <br>
+            <form action="" method="post">
+                <p>
+                    <label for="Nombre">
+                        Nombre de usuario:<input class="cuadro" id="nombre" type="text" name="nombre"
+                            placeholder="Nombre" required>
+                    </label>
+                </p>
+                <p>
+                    <label for="Apellido">
+                        Apellido del usuario:<input class="cuadro" id="apellido" type="text" name="apellido"
+                            placeholder="Apellido">
+                    </label>
+                </p>
+                <p>
+                    <label for="Edad">
+                        Edad:: <input class="cuadro" id="edad" type="number" name="edad" placeholder="edad" required
+                            min="1" max="110">
+                    </label>
+                </p>
+
+                <p>
+                    <label for="email">
+                        correo electronico: <input class="cuadro" id="email" type="email" name="email"
+                            placeholder="email">
+                    </label>
+                </p>
+
+
+            </form>
+
+            <h2>¿Usa gafas?</h2>
+            <form action="" method="post">
+                <p>
+                    <br>
+                    <label for="gafas">
+                        Si: <input id="Opcion 1" type="radio" name="radioBotom1">
+                    </label>
+                </p>
+                <br>
+                <p>
+                    <label for="Opcion 2">
+                        No: <input id="Opcion 2" type="radio" name="radioBotom1">
+                        <br>
+                        <br>
+                        <input class="boton" type="submit" value="Enviar datos" formtarget=" blanck">
+                        <br>
+                        <br>
+                        <input class="boton" type="reset" value="Resetear Formulario">
+                    </label>
+                </p>
+            </form>
+            <br>
+            <div id="incio">
+                ¿Ya tiene cuenta? <a href="inicio_sesion.html">inicie sesión</a>
+            </div>
+        </section>
+        <a class="a" href="apple.html">volver</a>
+    </main>             
+</body>
+
+</html>
